@@ -1,0 +1,6 @@
+[submodule "consumer-test-2"]
+	path = consumer-test-2
+	url = https://github.com/herdarcorcer/consumer-test-2.git
+[submodule "producer-test-2"]
+	path = producer-test-2
+	url = https://github.com/herdarcorcer/producer-test-2.git

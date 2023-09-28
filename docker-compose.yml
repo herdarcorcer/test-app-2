@@ -22,7 +22,7 @@ services:
 
   producer:
     build:
-      context: ./producer
+      context: ./producer-test-2
       dockerfile: Dockerfile
     container_name: producer
     ports:
@@ -34,7 +34,7 @@ services:
 
   consumer:
     build:
-      context: ./consumer
+      context: ./consumer-test-2
       dockerfile: Dockerfile
     container_name: consumer
     networks:
