@@ -26,48 +26,31 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
-## Installation
+## clone repository
 
 ```bash
-$ npm install
+$ git clone --recursive https://github.com/herdarcorcer/test-app-2.git
 ```
 
 ## Running the app
 
 ```bash
-# development
-$ npm run start
-
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
+$ docker-compose up --build
 ```
+Esperar hasta que compile exitosamente, suelde dar un error de conexion pero es mientras carga completamente.
 
-## Test
+## Test app save
 
-```bash
-# unit tests
-$ npm run test
+http://localhost:3000/users POST
+{
+    "name": "name"
+}
 
-# e2e tests
-$ npm run test:e2e
+## Test app get
 
-# test coverage
-$ npm run test:cov
-```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+http://localhost:3000/users GET
 
 ## Stay in touch
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+- Author - Hernan Dario Cortes Ceron
 
-## License
-
-Nest is [MIT licensed](LICENSE).
